@@ -94,3 +94,38 @@ button{
     color: white;
 }
 
+/*================================*/
+.column1{
+    float: left;
+    width: 45%;
+    padding: 10px;
+     
+    
+    text-align: center;
+    color:black;
+}
+
+.column2{
+    float: left;
+    width: 5%;
+    padding: 10px;
+     
+    position: relative;
+    text-align: center;
+    color:black;
+}
+
+.Photos::after{
+  content:"";
+  clear:both;
+  display: table;
+}
+
+.Text{
+    background-color: teal;
+    color:white;
+}
+
+
+
+

@@ -2,7 +2,8 @@
     float:center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;
-    
+    width:100%;
+    margin:0 auto;
     
 }
 .Name{
@@ -12,6 +13,7 @@
     float: left;
     padding: 3%;
     margin-left:15%;
+    margin-right:30%;
 }
 
 .links{ padding:2.85%;
@@ -19,17 +21,17 @@
 }
 
 li{
+  
     display:inline;
-    padding: 3%;
-    margin: 5%;
-    font-size:100%;
+    margin: 2%;
+    font-size:100%; 
+    
 }
 
 .AboutMe, #ContactMe, #Portfolio {
-    font-family: Arial, Helvetica, sans-serif;
+font-family: Arial, Helvetica, sans-serif;
 width: 960px;
-margin-left:15%;
-margin-right:15%;
+margin: 0% auto;
 background-color: #ffffff;
 border-color: #dddddd;
 padding-bottom:3%;
@@ -40,6 +42,7 @@ h1{
     font-size: 35px;
     padding-top:3%;
     padding-left:3%;
+   
 
 }
 
@@ -67,15 +70,7 @@ p{
     display: table;
     clear: both;    
 }
-.footer{
-    background-color: #666666;
-    text-align: center;
-    padding: 30px 0px 30px 0;
-    color: white;
-    border-top: 5px;
-    border-style: solid;
-    border-color: teal; 
-}
+
 
 /*++++++++++++++++++++++++++*/
 input {
@@ -95,37 +90,116 @@ button{
 }
 
 /*================================*/
-.column1{
-    float: left;
-    width: 45%;
-    padding: 10px;
-     
-    
-    text-align: center;
-    color:black;
-}
 
-.column2{
-    float: left;
-    width: 5%;
-    padding: 10px;
-     
-    position: relative;
-    text-align: center;
-    color:black;
-}
 
-.Photos::after{
-  content:"";
-  clear:both;
-  display: table;
-}
 
-.Text{
-    background-color: teal;
+/*======================================*/
+.Photos{
+    width:960px;
+    height: 815px;
+    margin: 0 auto;
+   background-color: #ffffff;
+   
+   position: relative;
+}
+.appleEarphones{
+    position: absolute;
+    text-align:center;
     color:white;
+    top: 15%;
+    left: 5%;
+
+}
+.HMan{
+    position:absolute;
+    background-color:teal;
+    color:white;
+    top: 72%;
+    width:100%;
+    
+    
 }
 
+.iPad{
+    position: absolute;
+    text-align:center;
+    color:white;
+    top: 15%;
+    left: 40%;
+}
+
+.RPGame{
+    position:absolute;
+    padding:1%;
+    background-color:teal;
+    color:white;
+    top:72%;
+    
+    width:100%;
+   
+}
+.Headphones{
+    position: absolute;;
+    text-align:center;
+    color:white;
+    top: 45%;
+    left:5%;
+
+}
+.RPS{
+        position: absolute;
+        padding:1%;
+        text-align:center;
+        color:white;
+        background-color: teal;
+        top:72%;
+        width:100%;
+      
+}
+
+.Laptop{
+        position: absolute;
+        text-align:center;
+        color:white;
+        top: 45%;
+        left: 40%;
+}
+.Trivia{ 
+    position: absolute;
+    padding:1%;
+    color:white;
+    background-color: teal;
+    top:73%;
+    
+    width:100%;
+}
+
+.Turntable{
+    position: absolute;
+    text-align:center;
+    color:white;
+    top: 75%;
+    left: 5%;
+}
+.Rutgers{ position: absolute;
+padding:1%;
+color:white;
+background-color: teal;
+top:72%;
+width:100%;
+}
+
+.footer{
+    background-color: #666666;
+    text-align: center;
+    padding: 5px 0px 5px 0;
+    width:100%;
+    margin:25px;
+    color: white;
+    border-top: 5px;
+    border-style: solid;
+    border-color: teal; 
+}
 
 
 

@@ -48,7 +48,7 @@ h1{
 
 body{
     background-image: url("/Users/pintor/Desktop/GIT/Basic-Portfolio/assets/images/united-squares-negative.png");
-    
+    margin: 0 auto;
 }
 
 .selfie{
@@ -99,8 +99,8 @@ button{
     height: 815px;
     margin: 0 auto;
    background-color: #ffffff;
-   
    position: relative;
+   
 }
 .appleEarphones{
     position: absolute;
@@ -192,9 +192,9 @@ width:100%;
 .footer{
     background-color: #666666;
     text-align: center;
-    padding: 5px 0px 5px 0;
+    padding: 5px 0px 5px 0px;
     width:100%;
-    margin:25px;
+    margin-top:25px;;
     color: white;
     border-top: 5px;
     border-style: solid;
